@@ -7,3 +7,4 @@
 ## openstack-trove-guestagent service定义中的conf文件路径有误
 ## python2-oslo-context版本有问题，尝试直接修改代码？
   => 直接删除与is_admin_project相关的代码即可。
+## guestagent/datastore/mysql_common/manager.py migrate_data 需要修改。 或者修改/etc/my.cnf.d/ 下面的配置文件 怎么修改？
